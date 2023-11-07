@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  text-decoration: none;
+  display: none;
+  list-style-type: none;
+}
+#bmenu {
+  width: 40px;
+}
+
+.newOne {
+  display: none;
+}
