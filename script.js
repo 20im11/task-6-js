@@ -42,10 +42,9 @@ document.querySelectorAll(".sameDivs").forEach((item) => {
 
 //  task 3
 
-let burgerMenu = document.getElementById("bmenu");
-let burgerNav = document.querySelector(".nav-list");
-burgerMenu.addEventListener("click", function () {
-  burgerNav.style.display = "flex";
-  burgerNav.style.color = "blue";
-  burgerNav.classList.toggle("new");
+let burgerNav = document.getElementById("burger");
+let burgerPic = document.getElementById("bmenu");
+
+burgerPic.addEventListener("click", function () {
+  burgerNav.classList.toggle("active");
 });

@@ -12,6 +12,24 @@
   width: 40px;
 }
 
-.newOne {
+#burger {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  flex-direction: column;
   display: none;
+  color: white;
+}
+li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.burger-menu {
+  background-color: blue;
+}
+
+#burger.active {
+  display: flex;
 }
